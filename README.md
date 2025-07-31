@@ -103,9 +103,3 @@ The project follows a structured workflow to download data, store it in a MongoD
 - The `data` and `notebooks` directories are excluded from version control via `.gitignore`.
 - Processed text is stored in the `processed_text` attribute in MongoDB after preprocessing with SpaCy.
 - Model performance varies by embedding technique, with TF-IDF and Word2Vec generally outperforming Sentence Transformer on this dataset, possibly due to preprocessing effects on semantic context.
-
-## Contributing
-Feel free to fork this repository, submit issues, or propose enhancements. Contributions to improve preprocessing, model tuning, or experiment scripts are welcome!
-
-## License
-[Add your license here, e.g., MIT License] - Specify if applicable.
