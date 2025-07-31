@@ -1,0 +1,23 @@
+name: nlp-reviews
+channels:
+  - defaults
+  - conda-forge
+  - pytorch  # For sentence-transformers and PyTorch
+dependencies:
+  - python=3.11
+  - nltk=3.8.1
+  - pip
+  - pandas
+  - numpy
+  - scikit-learn
+  - spacy
+  - tqdm
+  - joblib
+  - pymongo
+  - certifi
+  - python-dotenv
+  - ipykernel
+  - pytorch=2.3.0  # Latest stable version as of July 2025, adjust if needed
+  - sentence-transformers=2.7.0  # For SentenceTransformerEmbedding
+  - pip:
+      - xgboost  # Explicitly for XGBModel

@@ -1,0 +1,25 @@
+Folder PATH listing for volume Windows
+Volume serial number is 2607-97CE
+C:.
++---data
+¦   +---raw
+¦       +---aclImdb_v1
+¦       ¦   +---aclImdb
+¦       +---test
+¦       ¦   +---neg
+¦       ¦   +---pos
+¦       +---train
+¦           +---neg
+¦           +---pos
+¦           +---unsup
++---notebooks
++---src
+    +---data
+    ¦   +---__pycache__
+    +---embeddings
+    ¦   +---__pycache__
+    +---experiments
+    +---models
+    ¦   +---__pycache__
+    +---utils
+        +---__pycache__

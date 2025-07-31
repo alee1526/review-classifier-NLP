@@ -1,0 +1,11 @@
+pandas>=2.0.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
+spacy>=3.5.0
+tqdm>=4.65.0
+joblib>=1.2.0
+pymongo>=4.5.0
+python-dotenv>=1.0.0
+ipykernel>=6.25.0
+xgboost>=2.0.0
+torch>=2.3.0  # For compatibility with sentence-transformers

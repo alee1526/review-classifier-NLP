@@ -1,0 +1,69 @@
+Folder PATH listing for volume Windows
+Volume serial number is 2607-97CE
+C:.
+¦   estructura.txt
+¦   
++---data
+¦   ¦   data_loader.py
+¦   ¦   text_preproccesing.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---__pycache__
+¦           data_loader.cpython-311.pyc
+¦           __init__.cpython-311.pyc
+¦           
++---embeddings
+¦   ¦   base.py
+¦   ¦   sentence_model.joblib
+¦   ¦   sentence_transformer.py
+¦   ¦   tfidf.py
+¦   ¦   tfidf_model.joblib
+¦   ¦   word2vec.py
+¦   ¦   word2vec_model.joblib
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---__pycache__
+¦           base.cpython-311.pyc
+¦           sentence_transformer.cpython-311.pyc
+¦           tfidf.cpython-311.pyc
+¦           word2vec.cpython-311.pyc
+¦           __init__.cpython-311.pyc
+¦           
++---experiments
+¦       run_experiment.py
+¦       sentence_experiment.py
+¦       __init__.py
+¦       
++---models
+¦   ¦   base.py
+¦   ¦   logistic.py
+¦   ¦   logistic_sentence_model.joblib
+¦   ¦   logistic_tfidf_model.joblib
+¦   ¦   logistic_word2vec_model.joblib
+¦   ¦   random_forest.py
+¦   ¦   random_forest_sentence_model.joblib
+¦   ¦   random_forest_tfidf_model.joblib
+¦   ¦   random_forest_word2vec_model.joblib
+¦   ¦   xgb.py
+¦   ¦   xgboost_sentence_model.joblib
+¦   ¦   xgboost_tfidf_model.joblib
+¦   ¦   xgboost_word2vec_model.joblib
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---__pycache__
+¦           base.cpython-311.pyc
+¦           logistic.cpython-311.pyc
+¦           random_forest.cpython-311.pyc
+¦           xgb.cpython-311.pyc
+¦           __init__.cpython-311.pyc
+¦           
++---utils
+    ¦   logging_config.py
+    ¦   mongo_utils.py
+    ¦   __init__.py
+    ¦   
+    +---__pycache__
+            logging_config.cpython-311.pyc
+            mongo_utils.cpython-311.pyc
+            __init__.cpython-311.pyc
+            
