@@ -3,7 +3,7 @@ from pymongo import MongoClient
 
 def set_mongo_connection():
     # MongoDB connection
-    uri = "mongodb+srv://<username>:<password>@cluster0.kj6lxoi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    uri = "mongodb+srv://alediaz1526:oINGhgHEvmzntC5m@cluster0.kj6lxoi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
     try:
         client = MongoClient(uri)
